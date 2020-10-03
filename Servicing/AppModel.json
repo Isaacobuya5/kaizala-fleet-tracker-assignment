@@ -1,0 +1,71 @@
+{
+  "title": "Car Service Report",
+  "visibility": "All",
+  "expiry": 4070908800000,
+  "isAnonymous": false,
+  "isResponseAppended": true,
+  "isLocationRequested": false,
+  "questions": [
+    {
+      "title": "Vehicle Registration",
+      "type": "Text"
+    },
+    {
+      "title": "Current Odometer Reading",
+      "type": "Numeric"
+    },
+    {
+      "title": "Service due date",
+      "type": "Date"
+    },
+    {
+      "title": "Garage",
+      "type": "SingleSelect",
+      "options": [{
+          "title": "Embakasi"
+        },
+        {
+          "title": "Donholm"
+        },
+        {
+          "title": "Langata"
+        },
+        {
+          "title": "Kawangware"
+        }
+      ]
+    },
+    {
+      "title": "Parts needed",
+      "type": "Text"
+    },
+    {
+      "title": "Comment",
+      "type": "Text"
+    },
+    {
+      "title": "Date",
+      "type": "Date"
+    },
+    {
+      "title": "Time",
+      "type": "Text"
+    },
+    {
+      "title": "Name",
+      "type": "Text"
+    },
+    {
+      "title": "Phone No",
+      "type": "Text"
+    },
+    {
+      "title": "Location",
+      "type": "Location"
+    },
+    {
+      "title": "Response Time",
+      "type": "DateTime"
+    }
+  ]
+}

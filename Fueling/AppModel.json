@@ -1,0 +1,60 @@
+{
+  "title": "Fueling Report Form",
+  "visibility": "All",
+  "expiry": 4070908800000,
+  "isAnonymous": false,
+  "isResponseAppended": true,
+  "isLocationRequested": false,
+  "questions": [
+    {
+      "title": "Vehicle Registration",
+      "type": "Text"
+    },
+    {
+      "title": "Fuel Station",
+      "type": "SingleSelect",
+      "options": [{
+          "title": "Total"
+        },
+        {
+          "title": "Shell"
+        },
+        {
+          "title": "National Oil"
+        }
+      ]
+    },
+    {
+      "title": "Litres",
+      "type": "Numeric"
+    },
+    {
+      "title": "Cost",
+      "type": "Numeric"
+    },
+    {
+      "title": "Date",
+      "type": "Date"
+    },
+    {
+      "title": "Time",
+      "type": "Text"
+    },
+    {
+      "title": "Name",
+      "type": "Text"
+    },
+    {
+      "title": "Phone No",
+      "type": "Text"
+    },
+    {
+      "title": "Location",
+      "type": "Location"
+    },
+    {
+      "title": "Response Time",
+      "type": "DateTime"
+    }
+  ]
+}
